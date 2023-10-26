@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Resume </title>
+    <link rel="stylesheet" href="project1.css">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+  ></script>
+  <script >
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+const navMenu = document.querySelector('.nav-menu');
+
+mobileMenuButton.addEventListener('click', () => {
+    if (navMenu.style.display === 'block') {
+        navMenu.style.display = 'none';
+    } else {
+        navMenu.style.display = 'block';
+    }
+});
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+    <header id="body-header">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                    
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">
+                    Prajwal Honashetti
+                </h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prajwal-honashetti-382732231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                        target="_blank"><u>Visit my LinkedIn profile</u></a>
+                    </li>
+                  
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="/project1.jpeg"> 
+                
+                          
+            </div>
+            <p class="para" style="font-size: 90%;">I have completed a web development internship where I gained skills in HTML,
+             CSS, and JavaScript and Bootstrap Furthermore, during my college days,
+              I balanced academic pursuits with real-world responsibilities. I took on part-time work to foster independence, not just in my studies but in life itself. These experiences have enriched my skill set and underscored my commitment to personal and professional growth.</p>
+        </section>
+
+        <section id="skills">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"> </i>
+                   </span>
+                    <span>Skills</span>
+                </h1>
+               <div class="skill-display">
+                <div class="skill-progress">
+                  <div class="eighty-five-percent mb-blue">
+                    <div class="skill-name">
+                        <span> HTML </span>
+    
+                    </div>
+                  </div>
+               
+                </div>
+    
+               
+                <div class="skill-progress">
+                  <div class="eighty-percent mb-red">
+                    <div class="skill-name">
+                        <span> CSS </span>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="skill-progress">
+                  <div class="eighty-percent1 mb-green">
+                    <div class="skill-name">
+                        <span> Javascript </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent2 mb-orenge">
+                      <div class="skill-name">
+                          <span> Bootstrap </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-progress">
+                      <div class="eighty-percent3 mb-perpele">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="skill-progress">
+                      <div class="eighty-percent5 mb-brown">
+                        <div class="skill-name">
+                            <span> Python </span>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              </section>
+      
+              <section id="experience">
+                  <h1 class="section-heading mb75px">
+                      <span>
+                       <i class="fas fa-chalkboard-teacher"> </i>
+                      </span>
+                      <span>Experience</span>
+                  </h1>
+                      
+    
+                        <div class="box">
+                            <h4>Web Development Intern</h4>
+                            <h5>Infynow SoftwareSolutions LLP
+                            </h5>
+                            <h6>08/2022 - 09/2022</h6>
+                            <p>During my internship, I delved into the world of web development, 
+                                gaining proficiency in HTML, CSS, JavaScript, and Bootstrap.
+                                 
+                                 
+                                These valuable skills have equipped me to create dynamic and engaging web experiences,
+                                 opening doors to a world of digital possibilities.</p>
+                                </div>
+                                
+                            </div>
+                      
+                    </section>
+            
+                    <section id="education">
+                            <h1 class="section-heading mb75px">
+                                <span>
+                                 <i class="fas fa-chalkboard-teacher"> </i>
+                                </span>
+                                <span>Education</span>
+                            </h1>
+                            <div class="box">
+                                <h4 style="font-size: 35px;"> Bachelor of Engineering(EC)&nbsp;</h4>
+                                <h5>Jain College Of Engineering Belagavi</h5>
+                                <p>2020 - 2024</p>
+                                <p>6.7 CGPA</p>
+                            </div>
+
+                            <div class="box">
+                                <h4 style= "font-size: 35px;"> Pre-University Course (PUC) </h4>
+                                <h5>KLE independent P U College Chikodi</h5>
+                                <p>2018 - 2020</p>
+                                <p>60%</p>
+                            </div>
+            
+                            <div class="box">
+                                <h4 style="font-size: 35px;">Class 10th (X)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                <h5>CTE International Public School Chikodi</h5>
+                                <p>2014 - 2018</p>
+                                <p>60%</p>
+                            </div>
+                        </div>
+                    </section>
+            
+                    <section id="contact" class="contact">
+                        <h1 class="section-heading mb75px">
+                            <span>
+                             <i class="fas fa-chalkboard-teacher"> </i>
+                            </span>
+                            <span>Contact</span>
+                            <div class = "container1">
+                                <div class="contactInfo">
+                                    <div class="box1">
+                                        <div class="icon"></div>
+                                        <div class="text">
+                                            
+                                            <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+                                            <p class="hight">Chikodi, Belagavi, Karnataka, India 591201</p>
+                                        </div>
+                                    </div>
+                                    <div class="box1">
+                                        <div class="icon"></div>
+                                        <div class="text">
+                                            <h3><i class="fa-solid fa-phone"></i>Phone</h3>
+                                            <p class="hight">8296081584</p>
+                                        </div>
+                                    </div>
+                                    <div class="box1">
+                                        <div class="icon"></div>
+                                        <div class="text">
+                                            <h3> <i class="fa-regular fa-envelope"></i>Email</h3>
+                                            <!-- <p class="hight">prajhonashetti@gmail.com</p> -->
+                                            <p class="hight"><a href="mailto:prajhonashetti@gmail.com">prajhonashetti@gmail.com</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="box1">
+                                        <div class="icon"></div>
+                                        <div class="text">
+                                            <h3> <i class="fa-brands fa-linkedin"></i>LinkedIn</h3>
+                                            <p class="hight"><a href="https://www.linkedin.com/in/prajwal-honashetti-382732231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><u>Visit my LinkedIn profile: Prajwal Honashetti</u></a></p>
+                                
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                        </h1>
+                    </section>
+                </main>
+
+            </body>
+            </html>
+            
+            
+            
+            
+    
+      
+    
+
+
